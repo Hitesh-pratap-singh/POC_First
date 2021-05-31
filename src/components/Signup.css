@@ -1,0 +1,9 @@
+.Signup {
+  background-image: url("body.jpg");
+  width: 100vw;
+}
+@media (min-width: 400px) {
+  .Signup {
+    background-size: 100%;
+  }
+}

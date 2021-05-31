@@ -1,7 +1,13 @@
 .App {
+  background-image: url("body.jpg");
   text-align: center;
 }
 
+@media (min-width: 400px) {
+  .App {
+    background-size: 100%;
+  }
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
